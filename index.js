@@ -9,7 +9,7 @@ const data = JSON.parse(raw);
 let xs = [];
 let ys = [];
 
-for (const key in data) {
+for (const key in data) { 
     if (key === "keys") continue;
 
     const x = BigInt(parseInt(key));
